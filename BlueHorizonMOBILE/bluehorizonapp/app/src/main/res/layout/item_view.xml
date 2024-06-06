@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@drawable/item_background">
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceListItem"
+        android:text="Nome da Área"
+        android:textColor="@color/text_color"
+        android:textSize="18sp"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textViewPollutionLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewName"
+        android:text="Nível de Poluição: 70"
+        android:textColor="@color/text_color_secondary"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textViewTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPollutionLevel"
+        android:text="Temperatura: 25.5°C"
+        android:textColor="@color/text_color_secondary"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textViewBiodiversityIndex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTemperature"
+        android:text="Índice de Biodiversidade: 0.8"
+        android:textColor="@color/text_color_secondary"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="@string/delete"
+        android:background="?android:attr/selectableItemBackground"
+        android:textColor="@color/button_delete_color" />
+</RelativeLayout>

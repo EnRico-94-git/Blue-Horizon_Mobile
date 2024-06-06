@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ocenapp</string>
+    <string name="add_item">Adicionar Área</string>
+    <string name="item_name">Nome da Área</string>
+    <string name="item_value">Valor do Item</string>
+    <string name="save">Salvar</string>
+    <string name="delete">Excluir</string>
+</resources>

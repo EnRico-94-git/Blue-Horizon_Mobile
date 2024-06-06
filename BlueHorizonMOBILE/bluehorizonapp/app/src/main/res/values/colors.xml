@@ -1,0 +1,12 @@
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="text_color">#212121</color>
+    <color name="text_color_secondary">#757575</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="button_color">#3F51B5</color>
+    <color name="button_delete_color">#D32F2F</color>
+    <color name="recycler_background">#F5F5F5</color>
+    <color name="fab_color">#FF4081</color>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:hint="@string/item_name" />
+
+    <EditText
+        android:id="@+id/editTextPollutionLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextName"
+        android:layout_marginBottom="8dp"
+        android:hint="Nível de Poluição"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextTemperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPollutionLevel"
+        android:layout_marginBottom="8dp"
+        android:hint="Temperatura"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextBiodiversityIndex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTemperature"
+        android:layout_marginBottom="16dp"
+        android:hint="Índice de Biodiversidade"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextBiodiversityIndex"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/button_color"
+        android:text="@string/save" />
+</LinearLayout>
